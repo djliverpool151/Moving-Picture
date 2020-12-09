@@ -59,5 +59,15 @@ namespace Moving_Picture.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mc_frank {
+            get {
+                object obj = ResourceManager.GetObject("mc_frank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
